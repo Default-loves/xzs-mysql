@@ -33,7 +33,7 @@
  * 2019/11 入围开源中国最受欢迎开源项目
  * 2019/10 累计超过100万学生使用
  * 2019/10 荣获码云最有价值开源项目
- 
+
 ### 学生系统功能
 * 登录、注册： 注册时要选年级，过滤不同年级的试卷， 账号为student/123456
 * 首页： 任务中心、固定试卷、时段试卷、可以能做的一部分试卷
@@ -85,6 +85,9 @@
 * iView 主题样式
 
 ### 使用教程
+
+http://mindskip.gitee.io/uexam/#/
+
 1. redis 安装
 2. 进群获取到数据库脚本，创建表初始化数据
 3. /uexam/source/xzs为后台代码，建议使用IntelliJ IDEA打开，在application-dev.yml文件中，配置好postgesql/mysql、redis的服务地址，打开XzsApplication文件编译运行,默认端口为8000。
@@ -127,4 +130,4 @@
         <td><img src="doc/image/admin/13.png"/></td>
     </tr>
 </table>
-     
+​     
